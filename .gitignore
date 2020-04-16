@@ -1,6 +1,0 @@
-# .env
-.vscode
-core/__pycache__
-core/management/commands/__pycache__
-demo/__pycache__
-demo/settings/__pycache__
