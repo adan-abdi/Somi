@@ -1,0 +1,29 @@
+Structure for front End
+
+Pages:
+    HomeView
+    Courses(Explore) (All Courses)
+    Techers(Instructors) (All teachers)
+    Pricing
+    Contact Us
+    Mobile App View(Later Version)
+    FAQ page
+
+
+Base.html
+    Navbar:
+        Buttons - Home, Explore, Teachers, Pricing, Contact Us
+    Footer
+
+HomeView Sections:
+    Banner:
+        Call to action Button (Get Started) => Redirect to Pricing page
+    About Us:
+        3 sections to explain: 1. Students view courses 2. Instructors 3. Specialized Learning
+    Courses:
+        First 3 by Subjects, Courses.objects.all()
+    Teachers (3 teachers)
+    Why Choose Us
+    App Ad, 
+
+Courses Section (Explore)
