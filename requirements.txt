@@ -3,6 +3,7 @@ astroid==2.3.3
 autopep8==1.5
 colorama==0.4.3
 Django==3.0.5
+# Switch to Django==2.0.5 if issues arrise
 django-debug-toolbar==2.2
 isort==4.3.21
 lazy-object-proxy==1.4.3
@@ -15,3 +16,4 @@ six==1.13.0
 sqlparse==0.3.1
 typed-ast==1.4.0
 wrapt==1.11.2
+Pillow==5.1.0
