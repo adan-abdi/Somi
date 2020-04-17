@@ -1,0 +1,61 @@
+Documentation for Version 1: Somi
+
+Features:
+-Subjects-Courses-Modules file structure
+-Students
+-Instructors
+
+
+#Docs
+
+Building an E-Learning Platform:
+PHASE1:
+    [DONE] Create fixtures for models
+    [DONE] Use model inheritance
+    Create custom model fields
+    Use class-based views and mixins
+    Build formsets
+    Manage groups and permissions
+    Create a CMS
+
+PHASE2:
+    Create public views for displaying course information
+    Build a student registration system
+    Manage student enrollment in courses
+    Render diverse course contents
+    Cache content using the cache framework
+
+PHASE3:
+    Building Better UI for the whole project
+
+PHASE4:
+    Adding payment options to restrict paid classes
+
+PHASE5:
+    Build a RESTful API - Django Rest Framework
+    Handle authentication and permissions for API views
+    Create API view sets and routers
+
+PHASE6:
+    Configuring a production environment
+    Deploying to Server
+
+
+
+Apps Structure and Function
+    Core App
+        -Index file, Homepage templates etc
+
+    Courses App
+        Our e-learning platform will offer courses on various subjects. Each
+        course will be divided into a configurable number of modules, and
+        each module will contain a configurable number of contents. There
+        will be contents of various types: text, file, image, or video, see model-structure.txt
+
+    Payment class - Not created
+        Handles student payment subscriptions, various pricing options and membership categories for paid courses.
+
+
+SuperUser Credentials
+    username: adan
+    password: Somiadmin
