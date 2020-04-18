@@ -3,16 +3,19 @@ from django.core.exceptions import ObjectDoesNotExist
 
 
 class OrderField(models.PositiveIntegerField):
+    #Our OrderField field takes an optional for_fields parameter that allows us to indicate the fields that the order has to be calculated with respect to.
 
     def __init__(self, for_fields=None, *args, **kwargs):
         self.for_fields = for_fields
         super(OrderField, self).__init__(*args, **kwargs)
 
+    #overrides the pre_save() method of the PositiveIntegerField field, which is executed before saving the field into the database.
     def pre_save(self, model_instance, add):
         # Check if a value already exists for this field in the model instance.
         if getattr(model_instance, self.attname) is None:
             # no current value
             try:
+                #retrieve all objects for the field's model to calculate its order 
                 qs = self.model.objects.all()
                 if self.for_fields:
                     # filter by objects with the same field values

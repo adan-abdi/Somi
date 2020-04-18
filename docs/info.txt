@@ -12,7 +12,10 @@ Building an E-Learning Platform:
 PHASE1:
     [DONE] Create fixtures for models
     [DONE] Use model inheritance
-    Create custom model fields
+    [DONE] - [HAS A BUG] (ORDERING OF MODULES) Create custom model fields
+        Potential fixes:
+            1. Bump back to django 2 and test 
+            2. Restructure order code
     Use class-based views and mixins
     Build formsets
     Manage groups and permissions
