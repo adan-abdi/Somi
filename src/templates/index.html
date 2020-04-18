@@ -1,570 +1,60 @@
+{% extends "base.html" %}
+
 {% load static %}
 
-<!doctype html>
-<html class="no-js" lang="zxx">
-<head>
-    <!--====== USEFULL META ======-->
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="APPTON HTML5 Template is a simple Smooth Personal App Landing Template" />
-    <meta name="keywords" content="App, Landing, Business, Onepage, Html, Business" />
 
-    <!--====== TITLE TAG ======-->
-    <title>Somi</title>
-
-    <!--====== FAVICON ICON =======-->
-    <!-- <link rel="shortcut icon" type="image/ico" href="assest/img/favicon.png" /> -->
-
-    <!--====== STYLESHEETS ======-->
-    <link href="assest/css/plugins.css" rel="stylesheet">
-    <link href="assest/css/theme.css" rel="stylesheet">
-    <link href="assest/css/icons.css" rel="stylesheet">
-
-    <!--====== MAIN STYLESHEETS ======-->
-    <link href="style.css" rel="stylesheet">
-    <link href="assest/css/responsive.css" rel="stylesheet">
-
-    <script src="assest/js/vendor/modernizr-2.8.3.min.js"></script>
-    <!--[if lt IE 9]>
-        <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-        <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
-</head>
-
-<body data-spy="scroll" data-target=".mainmenu-area" data-offset="90">
-    
+    {% block content %} 
     <!--- PRELOADER -->
-    <div class="preeloader">
-        <div class="preloader-spinner"></div>
-    </div>
+    {% include 'components/preloader.html' %}
 
     <!--SCROLL TO TOP-->
-    <a href="#scroolup" class="scrolltotop"><i class="fa fa-long-arrow-up"></i></a>
+    {% include 'components/scrollup.html' %}
 
-    <!--START TOP AREA-->
-    <header class="top-area" id="home">
-        <div class="header-top-area" id="scroolup">
-            <!--NAVBAR-->
-            <div class="mainmenu-area" id="mainmenu-area">
-                <div class="mainmenu-area-bg"></div>
-                <nav class="navbar">
-                    <div class="container">
-                        <div class="navbar-header">
-                            <a href="#" class="navbar-brand"><img src="assest/img/logo.png" alt="logo"></a>
-                        </div>
-                        <div id="main-nav" class="stellarnav">
-                            <ul id="nav" class="nav navbar-nav pull-right">
-                                <li class="active"><a href="#home">Home</a></li>
-                                <li><a href="#features">Explore</a></li>
-                                <li><a href="#courses">Instructors</a></li>
-                                <li><a href="#testmonial">Login</a></li>
-                                <li><a href="#blog">Register</a></li>
-                                <li><a href="#contact">Contact</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
-            </div>
-            <!--NAVBAR-->
-        </div>
+    <!--HEADER-->
+    {% include 'components/header.html' %}
 
-        <!--WELCOME SLIDER AREA-->
-        <div class="welcome-slider-area white font16">
-            <div class="welcome-single-slide">
-                <div class="slide-bg-one slide-bg-overlay"></div>
-                <div class="welcome-area">
-                    <div class="container">
-                        <div class="row flex-v-center">
-                            <div class="col-md-8 col-lg-7 col-sm-12 col-xs-12">
-                                <div class="welcome-text">
-                                    <h1>Develop a passion for learning new things.</h1>
-                                    <p>Was certainty remaining engrossed applauded sir how discovery. Settled opinion how enjoyed greater joy adapted too shy. Now properly surprise expenses.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="welcome-single-slide">
-                <div class="slide-bg-three slide-bg-overlay"></div>
-                <div class="welcome-area">
-                    <div class="container">
-                        <div class="row flex-v-center">
-                            <div class="col-md-8 col-lg-7 col-sm-12 col-xs-12">
-                                <div class="welcome-text">
-                                    <h1>Develop a passion for learning new things.</h1>
-                                    <p>Was certainty remaining engrossed applauded sir how discovery. Settled opinion how enjoyed greater joy adapted too shy. Now properly surprise expenses.</p>
-                                    
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--WELCOME SLIDER AREA END-->
-    </header>
-    <!--END TOP AREA-->
 
     <!--FEATURES TOP AREA-->
-    <section class="features-top-area" id="features">
-        <div class="container">
-            <div class="row promo-content">
-                <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12">
-                    <div class="text-icon-box mb20 xs-mb0 wow fadeInUp padding30" data-wow-delay="0.1s">
-                        <div class="box-icon features-box-icon">
-                            <i class="fa fa-graduation-cap"></i>
-                        </div>
-                        <h3 class="box-title">Certificate</h3>
-                        <p>A Google Docs scam that appears to be widespread began landing in Wednesday in what seemed to be a phishing attack.</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12">
-                    <div class="text-icon-box relative mb20 xs-mb0  wow fadeInUp padding30" data-wow-delay="0.2s">
-                        <div class="box-icon features-box-icon">
-                            <i class="icofont icofont-business-man-alt-1"></i>
-                        </div>
-                        <h3 class="box-title">Expert Instructors</h3>
-                        <p>A Google Docs scam that appears to be widespread began landing in Wednesday in what seemed to be a phishing attack.</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12">
-                    <div class="text-icon-box relative mb20 xs-mb0 wow fadeInUp padding30" data-wow-delay="0.3s">
-                        <div class="box-icon features-box-icon">
-                            <i class="fa fa-rocket"></i>
-                        </div>
-                        <h3 class="box-title">Learn from anywhere</h3>
-                        <p>A Google Docs scam that appears to be widespread began landing in Wednesday in what seemed to be a phishing attack.</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12">
-                    <div class="text-icon-box relative mb20 xs-mb0 wow fadeInUp padding30 visible-sm" data-wow-delay="0.4s">
-                        <div class="box-icon features-box-icon">
-                            <i class="fa fa-cog"></i>
-                        </div>
-                        <h3 class="box-title">Quality Service</h3>
-                        <p>A Google Docs scam that appears to be widespread began landing in Wednesday in what seemed to be a phishing attack.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--FEATURES TOP AREA END-->
+    {% include 'components/features.html' %}
+
 
     <!--ABOUT TOP CONTENT AREA-->
-    <section class="section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 col-lg-8 col-md-offset-2 col-lg-offset-2 col-sm-12 col-xs-12">
-                    <div class="text-center wow fadeIn">
-                        <h2 class="xs-font20">Somi is trusted by 50,000+ student.</h2>
-                        <p>Microsoft has spent a lot of time trying to make Windows self-repairing, partly because it generally gets the blame when other programs or users try to improve” it. Given that tens of thousands of expert programmers have worked on the code over the past 30 years.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--ABOUT TOP CONTENT AREA END-->
+    {% include 'components/about.html' %}
+
 
     <!--COURSE AREA-->
-    <section class="course-area padding-top" id="courses">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-8 col-lg-8 col-md-offset-2 col-lg-offset-2 col-sm-12 col-xs-12">
-                    <div class="area-title text-center wow fadeIn">
-                        <h2 class="xs-font26">Our Trending Courses</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row course-list">
-                <div class="col-md-3 col-lg-3 col-sm-6 col-xs-12">
-                    <div class="single-course mb20">
-                        <img src="assest/img/course/blog-1.jpg" alt="">
-                        <div class="course-details padding30">
-                            <h3 class="font18">How to Write a Powerful Speech</h3>
-                            <p>MPs who are leaving the protection of for the campaign trail will render...</p>
-                            <p class="mt30"><a href="#" class="enroll-button">Enroll the Courses</a> <span class="course-price">$29.99</span></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-lg-3 col-sm-6 col-xs-12">
-                    <div class="single-course mb20">
-                        <img src="assest/img/course/blog-2.jpg" alt="">
-                        <div class="course-details padding30">
-                            <h3 class="font18">The Art and Practice of Leadership</h3>
-                            <p>MPs who are leaving the protection of for the campaign trail will render...</p>
-                            <p class="mt30"><a href="#" class="enroll-button">Enroll the Courses</a> <span class="course-price">$29.99</span></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-lg-3 col-sm-6 col-xs-12">
-                    <div class="single-course mb20">
-                        <img src="assest/img/course/blog-3.jpg" alt="">
-                        <div class="course-details padding30">
-                            <h3 class="font18">Introduction to Resume Writing</h3>
-                            <p>MPs who are leaving the protection of for the campaign trail will render...</p>
-                            <p class="mt30"><a href="#" class="enroll-button">Enroll the Courses</a> <span class="course-price">$29.99</span></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-lg-3 col-sm-6 col-xs-12">
-                    <div class="single-course mb20">
-                        <img src="assest/img/course/blog-4.jpg" alt="">
-                        <div class="course-details padding30">
-                            <h3 class="font18">The Art and Practice of Leadership</h3>
-                            <p>MPs who are leaving the protection of for the campaign trail will render...</p>
-                            <p class="mt30"><a href="#" class="enroll-button">Enroll the Courses</a> <span class="course-price">$29.99</span></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--COURSE AREA END-->
+    {% include 'components/courses.html' %}
+
 
     <!--ABOUT AREA-->
-    <section class="section-padding about-area" id="about">
-        <div class="container">
-            <div class="row flex-v-center">
-                <div class="col-md-5 col-lg-5 col-sm-12 col-xs-12">
-                    <div class="about-content xs-mb50 wow fadeIn">
-                        <h3 class="xs-font20 mb30">Education is the foundation upon which we build our future.</h3>
-                        <p>A Google Docs scam that appears to be widespread began landing in users’ inboxes on Wednesday in what seemed to be a sophisticated phishing or malware attack. The deceptive invitation to edit a Google Doc on Google Docs with you.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-6 col-md-offset-1 col-lg-offset-1 col-sm-12 col-xs-12">
-                    <div class="video-promo-details wow fadeIn">
-                        <div class="video-promo-content">
-                            <span data-video-id="j1S66liv1t8" class="video-area-popup mb30"><i class="fa fa-play"></i></span>
-                        </div>
-                        <img src="assest/img/about/about.jpg" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--ABOUT AREA END-->
+    {% include 'components/video.html' %}
+
 
     <!--TESTMONIAL AREA AREA-->
-    <section class="testmonial-area bg-theme section-padding" id="testmonial">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 col-lg-8 col-md-offset-2 col-lg-offset-2 col-sm-12 col-xs-12">
-                    <div class="area-title text-center wow fadeIn">
-                        <h2>What Our Customer Say</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="testmonial-slider">
-                        <div class="single-testmonial">
-                            <div class="author-content mb20">
-                                <p>“The recording starts with the patter of a summer squall. Later a drifting tone like that of a not-quite-tuned-in radio station rises and for a while drowns out the patter. These are the sounds encountered by NASA.”</p>
-                            </div>
-                            <div class="author-name-image relative">
-                                <div class="author-img mb20">
-                                    <img src="assest/img/testmonial/testmonial.jpg" alt="">
-                                </div>
-                                <h4>Harold Crouse</h4>
-                                <a href="#">Sales manager</a>
-                            </div>
-                        </div>
-                        <div class="single-testmonial">
-                            <div class="author-content mb20">
-                                <p>“The recording starts with the patter of a summer squall. Later a drifting tone like that of a not-quite-tuned-in radio station rises and for a while drowns out the patter. These are the sounds encountered by NASA.”</p>
-                            </div>
-                            <div class="author-name-image relative">
-                                <div class="author-img mb20">
-                                    <img src="assest/img/testmonial/testmonial.jpg" alt="">
-                                </div>
-                                <h4>Harold Crouse</h4>
-                                <a href="#">Sales manager</a>
-                            </div>
-                        </div>
-                        <div class="single-testmonial">
-                            <div class="author-content mb20">
-                                <p>“The recording starts with the patter of a summer squall. Later a drifting tone like that of a not-quite-tuned-in radio station rises and for a while drowns out the patter. These are the sounds encountered by NASA.”</p>
-                            </div>
-                            <div class="author-name-image relative">
-                                <div class="author-img mb20">
-                                    <img src="assest/img/testmonial/testmonial.jpg" alt="">
-                                </div>
-                                <h4>Harold Crouse</h4>
-                                <a href="#">Sales manager</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--TESTMONIAL AREA AREA END-->
+    {% include 'components/testimonials.html' %}
+
 
     <!--FAQS AREA-->
-    <section class="faqs-area padding-100-50" id="faqs">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
-                    <div class="area-title text-center wow fadeIn">
-                        <h2>FAQS</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12">
-                    <div class="text-icon-box relative mb50 wow fadeInUp" data-wow-delay="0.1s">
-                        <h3 class="box-title">1.Two Very Different Australias?</h3>
-                        <p>A Google Docs scam that appears to be widespread began landing in users’ inboxes on Wednesday in what seemed to be a sophisticated phishing.</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12">
-                    <div class="text-icon-box relative mb50 wow fadeInUp" data-wow-delay="0.2s">
-                        <h3 class="box-title">2.What Does Darwin Mean to You?</h3>
-                        <p>A Google Docs scam that appears to be widespread began landing in users’ inboxes on Wednesday in what seemed to be a sophisticated phishing.</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12">
-                    <div class="text-icon-box relative mb50 wow fadeInUp" data-wow-delay="0.3s">
-                        <h3 class="box-title">3.Where Totem Poles Are a Living Art ?</h3>
-                        <p>A Google Docs scam that appears to be widespread began landing in users’ inboxes on Wednesday in what seemed to be a sophisticated phishing.</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12">
-                    <div class="text-icon-box relative mb50 wow fadeInUp" data-wow-delay="0.1s">
-                        <h3 class="box-title">1.Two Very Different Australias?</h3>
-                        <p>A Google Docs scam that appears to be widespread began landing in users’ inboxes on Wednesday in what seemed to be a sophisticated phishing.</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12">
-                    <div class="text-icon-box relative mb50 wow fadeInUp" data-wow-delay="0.2s">
-                        <h3 class="box-title">2.What Does Darwin Mean to You?</h3>
-                        <p>A Google Docs scam that appears to be widespread began landing in users’ inboxes on Wednesday in what seemed to be a sophisticated phishing.</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12">
-                    <div class="text-icon-box relative mb50 wow fadeInUp" data-wow-delay="0.3s">
-                        <h3 class="box-title">3.Where Totem Poles Are a Living Art ?</h3>
-                        <p>A Google Docs scam that appears to be widespread began landing in users’ inboxes on Wednesday in what seemed to be a sophisticated phishing.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--FAQS AREA END-->
+    {% include 'components/faq.html' %}
+
 
     <!--CONTACT US AREA-->
-    <section class="contact-area sky-gray-bg" id="contact">
-        <div class="container-fluid no-padding">
-            <div class="row no-margin">
-                <div class="no-padding col-md-6 col-lg-6 col-sm-12 col-xs-12">
-                    <div class="map-area relative">
-                        <div id="map" style="width: 100%; height: 600px;"> </div>
-                    </div>
-                </div>
-                <div class="no-padding col-md-4 col-lg-4 col-sm-12 col-xs-12">
-                    <div class="contact-form-content padding50 xs-padding20">
-                        <div class="contact-title wow fadeIn">
-                            <h3 class="font28 mb50 xs-mb30 xs-font22 xs-mt20">Any question in mind? Don’t Worry Contact Us.</h3>
-                        </div>
-                        <div class="contact-form wow fadeIn">
-                            <form action="process.php" id="contact-form" method="post">
-                                <div class="row">
-                                    <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
-                                        <div class="form-group" id="name-field">
-                                            <div class="form-input">
-                                                <input type="text" class="form-control" id="form-name" name="form-name" placeholder="Name.." required>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
-                                        <div class="form-group" id="email-field">
-                                            <div class="form-input">
-                                                <input type="email" class="form-control" id="form-email" name="form-email" placeholder="Email.." required>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
-                                        <div class="form-group" id="phone-field">
-                                            <div class="form-input">
-                                                <input type="text" class="form-control" id="form-phone" name="form-phone" placeholder="Subject..">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
-                                        <div class="form-group" id="message-field">
-                                            <div class="form-input">
-                                                <textarea class="form-control" rows="6" id="form-message" name="form-message" placeholder="Your Message Here..." required></textarea>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
-                                        <div class="form-group mb0">
-                                            <button type="submit">Send Message</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--CONTACT US AREA END-->
+    {% include 'components/contact.html' %}
 
-    <!--CLIENT AREA-->
-    <div class="client-area  padding-bottom mt100 sm-mt10 xs-mt0">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
-                    <div class="client-slider">
-                        <div class="single-client">
-                            <img src="assest/img/client/client-6.png" alt="">
-                        </div>
-                        <div class="single-client">
-                            <img src="assest/img/client/client-7.png" alt="">
-                        </div>
-                        <div class="single-client">
-                            <img src="assest/img/client/client-8.png" alt="">
-                        </div>
-                        <div class="single-client">
-                            <img src="assest/img/client/client-9.png" alt="">
-                        </div>
-                        <div class="single-client">
-                            <img src="assest/img/client/client-10.png" alt="">
-                        </div>
-                        <div class="single-client">
-                            <img src="assest/img/client/client-6.png" alt="">
-                        </div>
-                        <div class="single-client">
-                            <img src="assest/img/client/client-7.png" alt="">
-                        </div>
-                        <div class="single-client">
-                            <img src="assest/img/client/client-8.png" alt="">
-                        </div>
-                        <div class="single-client">
-                            <img src="assest/img/client/client-9.png" alt="">
-                        </div>
-                        <div class="single-client">
-                            <img src="assest/img/client/client-10.png" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--CLIENT AREA END-->
+
+    <!--PARTNERS AREA-->
+    {% include 'components/contact.html' %}
+
 
     <!--ADDMISSION AREA-->
-    <section class="admition-area padding-50-50 bg-theme">
-        <div class="container">
-            <div class="row flex-v-center">
-                <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12">
-                    <div class="admition-content xs-center xs-mb30">
-                        <h3 class="xs-font20">Addmission are now open</h3>
-                        <p>Writers and stars of Veep have responded incredulously to the news an Australian politician required stitches after knocking himself unconscious .</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12">
-                    <div class="enroll-button right xs-center">
-                        <a href="#">Enroll Now</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--ADDMISSION AREA END-->
+    {% include 'components/enroll.html' %}
+
 
     <!--FOOER AREA-->
-    <footer class="footer-area sky-gray-bg relative">
-        <div class="footer-top-area padding-80-80 bg-dark">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-5 col-lg-5 col-sm-12 col-xs-12">
-                        <div class="single-footer footer-about sm-mb50 xs-mb50 sm-center xs-center">
-                            <div class="footer-logo mb30">
-                                <a href="#"><img src="assest/img/logo.png" alt=""></a>
-                            </div>
-                            <p>Saudi Arabia has been accused of using anti-terror laws to suppress free expression and failing to carry out independent inquiries into its Yemen.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-2 col-lg-2 col-sm-4 col-xs-12">
-                        <div class="single-footer footer-list white xs-center xs-mb50">
-                            <ul>
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">Service</a></li>
-                                <li><a href="#">Team</a></li>
-                                <li><a href="#">Privicy Policy</a></li>
-                                <li><a href="#">Testmonial</a></li>
-                                <li><a href="#">Support</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-5 col-lg-5 col-sm-8 col-xs-12">
-                        <div class="single-footer footer-subscribe white xs-center">
-                            <h3 class="mb30 xs-font18">Subscribe Our Newsletter</h3>
-                            <p>Doubtful for answered one fat indulged margaret sir shutters together. Ladies so in wholly .</p>
-                            <div class="subscriber-form-area mt50 wow fadeIn">
-                                <!--<form action="#" class="subscriber-form mb100">
-                                    <input type="email" name="email" id="email" placeholder="Email Address">
-                                    <button type="submit">Subscribe</button>
-                                </form>-->
-                                <form id="mc-form" class="subscriber-form">
-                                    <label class="mt10" for="mc-email"></label>
-                                    <input type="email" id="mc-email" placeholder="email@example.com">
-                                    <button type="submit" class="plus-btn"><i class="fa fa-paper-plane-o"></i></button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer-bottom-area white">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
-                        <div class="footer-copyright text-center wow fadeIn">
-                            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!--FOOER AREA END-->
+    {% include 'components/footer.html' %}
+
+    {% endblock content %}
 
 
-    <!--====== SCRIPTS JS ======-->
-    <script src="assest/js/vendor/jquery-1.12.4.min.js"></script>
-    <script src="assest/js/vendor/bootstrap.min.js"></script>
 
-    <!--====== PLUGINS JS ======-->
-    <script src="assest/js/vendor/jquery.easing.1.3.js"></script>
-    <script src="assest/js/vendor/jquery-migrate-1.2.1.min.js"></script>
-    <script src="assest/js/vendor/jquery.appear.js"></script>
-    <script src="assest/js/owl.carousel.min.js"></script>
-    <script src="assest/js/stellar.js"></script>
-    <script src="assest/js/waypoints.min.js"></script>
-    <script src="assest/js/jquery.counterup.min.js"></script>
-    <script src="assest/js/wow.min.js"></script>
-    <script src="assest/js/jquery-modal-video.min.js"></script>
-    <script src="assest/js/stellarnav.min.js"></script>
-    <script src="assest/js/placeholdem.min.js"></script>
-    <script src="assest/js/contact-form.js"></script>
-    <script src="assest/js/jquery.ajaxchimp.js"></script>
-    <script src="assest/js/jquery.sticky.js"></script>
 
-    <!--===== ACTIVE JS=====-->
-    <script src="assest/js/main.js"></script>
-
-    <!--===== MAPS JS=====-->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBTS_KEDfHXYBslFTI_qPJIybDP3eceE-A&sensor=false"></script>
-    <script src="assest/js/maps.active.js"></script>
-</body>
-
-</html>
