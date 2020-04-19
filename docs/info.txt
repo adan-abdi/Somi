@@ -16,7 +16,7 @@ PHASE1:
         Potential fixes:
             1. Bump back to django 2 and test 
             2. Restructure order code
-    Use class-based views and mixins
+    [DONE] Use class-based views and mixins
     Build formsets
     Manage groups and permissions
     Create a CMS
