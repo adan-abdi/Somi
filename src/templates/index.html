@@ -8,12 +8,34 @@
 
 {% block content %}
 
-
     <!--START TOP AREA-->
     <header class="top-area" id="home">
         <div class="header-top-area" id="scroolup">
             <!--NAVBAR-->
-            {% include 'components/navbar.html' %}
+            <div class="mainmenu-area" id="mainmenu-area">
+                <div class="mainmenu-area-bg"></div>
+                <nav class="navbar">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <a href="#" class="navbar-brand"><img src="{% static 'assest/img/logo.png' %}" alt="logo"></a>
+                        </div>
+                        <div id="main-nav" class="stellarnav">
+                            <ul id="nav" class="nav navbar-nav pull-right">
+                                <li class="active"><a href="#">Home</a></li>
+                                <li><a href="#">Explore</a></li>
+                                <li><a href="#">Instructors</a></li>
+                                {% if request.user.is_authenticated %}
+                                    <li><a href="{% url "logout" %}">Logout</a></li>
+                                {% else %}
+                                    <li><a href="{% url "login" %}">Login</a></li>
+                                    <li><a href="#">Register</a></li>
+                                {% endif %}
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
             <!--NAVBAR-->
         </div>
 
