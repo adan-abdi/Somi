@@ -62,3 +62,7 @@ Apps Structure and Function
 SuperUser Credentials
     username: adan
     password: Somiadmin
+
+Instructor Test Credentials
+    username: instructorTest
+    password: instructorTest
