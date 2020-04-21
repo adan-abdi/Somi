@@ -1,7 +1,11 @@
 from django.conf import settings
-from django.urls import path
+from django.contrib import admin
+from django.urls import path, include
+from django.contrib.auth import views as auth_views
 
+# local imports
 from . import views
+
 
 urlpatterns = [
     path('mine/', views.ManageCourseListView.as_view(), name='manage_course_list'),

@@ -1,83 +1,66 @@
 [
-  {
-    "model": "courses.subject",
-    "pk": 1,
-    "fields": {
-      "title": "Mathematics",
-      "slug": "Math",
-      "created": "2020-04-17T12:28:29.718Z"
-    }
-  },
-  {
-    "model": "courses.subject",
-    "pk": 2,
-    "fields": {
-      "title": "English",
-      "slug": "Eng",
-      "created": "2020-04-17T12:28:46.343Z"
-    }
-  },
-  {
-    "model": "courses.subject",
-    "pk": 3,
-    "fields": {
-      "title": "Kiswahili",
-      "slug": "Swahili",
-      "created": "2020-04-17T12:29:19.600Z"
-    }
-  },
-  {
-    "model": "courses.subject",
-    "pk": 4,
-    "fields": {
-      "title": "Physics",
-      "slug": "Phy",
-      "created": "2020-04-17T12:29:30.741Z"
-    }
-  },
-  {
-    "model": "courses.subject",
-    "pk": 5,
-    "fields": {
-      "title": "Chemistry",
-      "slug": "Chem",
-      "created": "2020-04-17T12:29:40.490Z"
-    }
-  },
-  {
-    "model": "courses.subject",
-    "pk": 6,
-    "fields": {
-      "title": "Biology",
-      "slug": "Bio",
-      "created": "2020-04-17T12:29:49.992Z"
-    }
-  },
-  {
-    "model": "courses.subject",
-    "pk": 7,
-    "fields": {
-      "title": "History",
-      "slug": "Hist",
-      "created": "2020-04-17T12:30:02.518Z"
-    }
-  },
-  {
-    "model": "courses.subject",
-    "pk": 8,
-    "fields": {
-      "title": "Geography",
-      "slug": "Geo",
-      "created": "2020-04-17T12:30:18.230Z"
-    }
-  },
-  {
-    "model": "courses.subject",
-    "pk": 9,
-    "fields": {
-      "title": "Christian Religious Education",
-      "slug": "CRE",
-      "created": "2020-04-17T12:30:41.176Z"
-    }
+{
+  "model": "courses.subject",
+  "pk": 1,
+  "fields": {
+    "title": "Mathematics",
+    "slug": "math"
   }
+},
+{
+  "model": "courses.subject",
+  "pk": 2,
+  "fields": {
+    "title": "English",
+    "slug": "eng"
+  }
+},
+{
+  "model": "courses.subject",
+  "pk": 3,
+  "fields": {
+    "title": "Kiswahili",
+    "slug": "swahili"
+  }
+},
+{
+  "model": "courses.subject",
+  "pk": 4,
+  "fields": {
+    "title": "Physics",
+    "slug": "phy"
+  }
+},
+{
+  "model": "courses.subject",
+  "pk": 5,
+  "fields": {
+    "title": "Chemistry",
+    "slug": "chem"
+  }
+},
+{
+  "model": "courses.subject",
+  "pk": 6,
+  "fields": {
+    "title": "Biology",
+    "slug": "bio"
+  }
+},
+{
+  "model": "courses.subject",
+  "pk": 7,
+  "fields": {
+    "title": "Geography",
+    "slug": "geo"
+  }
+},
+{
+  "model": "courses.subject",
+  "pk": 8,
+  "fields": {
+    "title": "History",
+    "slug": "hist"
+  }
+}
 ]

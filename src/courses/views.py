@@ -1,38 +1,31 @@
 from django.shortcuts import render
-from django.contrib.auth.models import User
 from django.views.generic.list import ListView
 from django.urls import reverse_lazy
 from django.views.generic.edit import CreateView, UpdateView, DeleteView
 from django.contrib.auth.mixins import LoginRequiredMixin, PermissionRequiredMixin
 
+# local imports
 from .models import Course
 
-# Create your views here.
+
 class ManageCourseListView(ListView):
     model = Course
     template_name = 'courses/manage/course/list.html'
 
-    # retreive only courses only made by logged in user
     def get_queryset(self):
         qs = super(ManageCourseListView, self).get_queryset()
         return qs.filter(owner=self.request.user)
 
-
-
 class OwnerMixin(object):
-    # retrieve objects that belong to the current user (request.user).
-    # interact with any model that contains owner attribute to filter by current user
     def get_queryset(self):
         qs = super(OwnerMixin, self).get_queryset()
         return qs.filter(owner=self.request.user)
 
 
 class OwnerEditMixin(object):
-    # set the owner for an object automatically when it is saved.
     def form_valid(self, form):
         form.instance.owner = self.request.user
         return super(OwnerEditMixin, self).form_valid(form)
-
 
 class OwnerCourseMixin(OwnerMixin, LoginRequiredMixin):
     model = Course
