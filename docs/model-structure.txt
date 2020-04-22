@@ -1,8 +1,5 @@
 Courses
-Our e-learning platform will offer courses on various subjects. Each
-course will be divided into a configurable number of modules, and
-each module will contain a configurable number of contents. There
-will be contents of various types: text, file, image, or video
+Our e-learning platform will offer courses on various subjects. Each course will be divided into a configurable number of modules, and each module will contain a configurable number of contents. There will be contents of various types: text, file, image, or video
 
 The data structure of our course catalog will look like:
     Subject 1

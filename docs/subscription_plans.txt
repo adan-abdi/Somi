@@ -1,3 +1,5 @@
+We are currently only working on Version 1
+
 Version 1
     1. 7 day free trial
     2. Basic Subscription for all courses,
@@ -6,11 +8,4 @@ Version 1
 Version 2
     1. 7 day free trial
     2. Basic Plan
-    3. Individualized [remium Courses i.e. All Premium courses have their own pricing
-
-
-Version 3
-    1. 7 day free trial
-    2. Basic Plan
-    3. Individualized [remium Courses i.e. All Premium courses have their own pricing
-    4. Schools Plan. A model for providing the courses directly to schools and charging them, to be planned out
+    3. Schools Plan. A model for providing the courses directly to schools and charging them, to be planned out
