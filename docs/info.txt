@@ -17,9 +17,9 @@ PHASE1:
             1. Bump back to django 2 and test 
             2. Restructure order code
     [DONE] Use class-based views and mixins
-    Build formsets
-    Manage groups and permissions
-    Create a CMS
+    [DONE] Build formsets
+    [DONE] Manage groups and permissions
+    [DONE] Create a CMS
 
 PHASE2:
     Create public views for displaying course information
