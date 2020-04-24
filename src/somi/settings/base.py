@@ -27,6 +27,7 @@ INSTALLED_APPS = [
 
     'core',
     'courses',
+    'payments',
 
 ]
 

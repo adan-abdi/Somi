@@ -1,7 +1,7 @@
 from django.db import models
 from django.contrib.auth.models import User
 from django.utils import timezone
-from courses.models import Courses
+from courses.models import Course
 
 
 class Plan(models.Model):
@@ -33,7 +33,7 @@ class Subscription(models.Model):
 
 class Transaction(models.Model):
     payment_id = models.CharField(max_length=200)
-    payment_type = models.CharField(max_lenght=200)
+    payment_type = models.CharField(max_length=200)
     payment_date = models.DateTimeField(default=timezone.now)
     user = models.ForeignKey(
         User, related_name='payer', on_delete=models.CASCADE)
@@ -46,3 +46,15 @@ class Transaction(models.Model):
 
     def __str__(self):
         return f"{self.user}:{self.amount}->{self.payment_date}"
+
+
+class FreeTrial(models.Model):
+    ip_address = models.CharField(max_length=30)
+    start_date = models.DateTimeField(default=timezone.now)
+    end_date = models.DateTimeField()
+
+    class Meta:
+        ordering = ['ip_address']
+
+    def __str__(self):
+        return f"{self.ip}:{self.start_date}->{self.end_date}"

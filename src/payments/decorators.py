@@ -7,6 +7,7 @@
 # else just pass
 from django.core.exceptions import PermissionDenied
 from django.shortcuts import redirect
+from django.contrib import messages
 
 
 def subscription_required(function):
@@ -16,6 +17,7 @@ def subscription_required(function):
         if len(subscription) == 0:
             return function(request, *args, **kwargs)
         else:
+            messages.error(request,'Your Subscription or free trial has expired. Subscribe to continue learning')
             return redirect('/success/')
     wrap.__doc__ = function.__doc__
     wrap.__name__ = function.__name__
