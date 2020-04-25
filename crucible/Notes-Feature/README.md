@@ -1,4 +1,4 @@
-# Scribnotes
+<!-- # Scribnotes
 
 Scribnotes is a note-taking web application where students can efficiently take notes, access them, and compartmentalize them into appropriate courses, academic terms, and schools.
 
@@ -26,4 +26,4 @@ Throughout my undergraduate career I was exposed to a panoply of different note-
 
 ### Author
 
-Benjamin (Benji) Van Nguyen — benjamin.van.nguyen@gmail.com
+Benjamin (Benji) Van Nguyen — benjamin.van.nguyen@gmail.com -->
