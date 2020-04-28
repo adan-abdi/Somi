@@ -33,6 +33,7 @@ INSTALLED_APPS = [
     'payments',
     'students',
     'notes',
+    'chat'
 
 ]
 
