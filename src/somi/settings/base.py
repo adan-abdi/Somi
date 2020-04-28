@@ -1,5 +1,7 @@
 import os
 from decouple import config
+from django.urls import reverse_lazy
+
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(
@@ -68,6 +70,8 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'somi.wsgi.application'
+
+LOGIN_REDIRECT_URL = reverse_lazy('student_course_list')
 
 
 # Internationalization
