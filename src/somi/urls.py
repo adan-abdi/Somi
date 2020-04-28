@@ -3,11 +3,15 @@ from django.contrib import admin
 from django.urls import path, include
 from django.contrib.auth import views as auth_views
 
+# local imports
+from courses.views import CourseListView
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('core.urls')),
     path('courses/', include('courses.urls')),
+
 
     # authentication urls
     path('accounts/login/', auth_views.LoginView.as_view(), name='login'),

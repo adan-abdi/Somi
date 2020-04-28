@@ -35,8 +35,8 @@ All packages for the development of this project are contained in the *requireme
 
 #### Rendering, Accessing and Caching Course Contents (Student View)
 
-* [ ] 1.Displaying courses (Filter by subject and displaying a single course overview)
-* [ ] 2.Adding student registration view
+* [ ] 1. Displaying courses (Filter by subject and displaying a single course overview)
+* [ ] 2. Adding student registration view
 * [ ] 3. Enrolling on courses and Accessing the course contents
 * [ ] 4. Rendering different content-types (Video, Files, Text, Images)
 * [ ] Cache Backends Framework for Rendering and Caching Content - *Memcached*

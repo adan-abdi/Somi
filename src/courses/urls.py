@@ -8,6 +8,12 @@ from . import views
 
 
 urlpatterns = [
+    # course list view
+    path('', CourseListView.as_view(), name='course_list'),
+    #
+    path('subject/<slug:subject>/', views.CourseListView.as_view(), name='course_list_subject'),
+    path('<slug:slug>/', views.CourseDetailView.as_view(), name='course_detail'),
+    #
     path('mine/', views.ManageCourseListView.as_view(), name='manage_course_list'),
     path('create/', views.CourseCreateView.as_view(), name='course_create'),
     path('<pk>/edit/', views.CourseUpdateView.as_view(), name='course_edit'),
