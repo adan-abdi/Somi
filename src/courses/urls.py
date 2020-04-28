@@ -5,6 +5,7 @@ from django.contrib.auth import views as auth_views
 
 # local imports
 from . import views
+from courses.views import CourseListView
 
 
 urlpatterns = [

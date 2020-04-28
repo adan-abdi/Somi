@@ -160,7 +160,7 @@ class ContentOrderView(CsrfExemptMixin, JsonRequestResponseMixin, View):
 
 class CourseListView(TemplateResponseMixin, View):
     model = Course
-    template_name = 'courses/course/list.html'
+    template_name = 'courses/list.html'
 
     def get(self, request, subject=None):
         # retrieve all subjects
@@ -176,4 +176,4 @@ class CourseListView(TemplateResponseMixin, View):
 
 class CourseDetailView(DetailView):
     model = Course
-    template_name = 'courses/course/detail.html'
+    template_name = 'courses/detail.html'
