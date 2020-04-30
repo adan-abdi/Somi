@@ -66,6 +66,8 @@ All packages for the development of this project are contained in the *requireme
 * [ ] Footer and Newsletter form
 * [ ] Contact Us
 
+#### Testing and Launch
+
 * [ ] 🚀 Begin Testing (Heroku)!
 * [ ] 🚀 Going Live! Version 1
 
