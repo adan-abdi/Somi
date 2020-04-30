@@ -66,6 +66,9 @@ All packages for the development of this project are contained in the *requireme
 * [ ] Footer and Newsletter form
 * [ ] Contact Us
 
+* [ ] 🚀 Begin Testing (Heroku)!
+* [ ] 🚀 Going Live! Version 1
+
 ## Secondary Features (Chat, Notes, API)
 
 #### Building an API for Mobile and or other clients
