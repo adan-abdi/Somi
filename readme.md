@@ -12,15 +12,15 @@ Somi is a web application designed and built as an e-learning platform with a co
     6. A fully featured API for Client side Applications (Mobile, Maybe JS Framework Frontend)
     7. Additional Mobile app (Android) for course views
 
-### Packages
+## Packages
 
 All packages for the development of this project are contained in the *requirements.txt* file above.
 
-#### Milestones and Code-Checklist
+## Milestones and Code-Checklist
 
-#### Core Functionalities
+## Core Functionalities
 
-#### ✅ Functionality for instructors
+### ✅ Functionality for instructors
 
 * [x] 1. Setting up the e-learning project
 * [x] 2. Building the course app models and Registering the models in the administration site
@@ -33,7 +33,7 @@ All packages for the development of this project are contained in the *requireme
 * [x] 9. Adding content to course modules
 * [x] 10. Managing and Reordering modules and their contents (AJAX-based drag-and-drop functionality to order course modules and their contents)
 
-#### Rendering, Accessing and Caching Course Contents (Student View)
+### Rendering, Accessing and Caching Course Contents (Student View)
 
 * [x] 1. Displaying courses (Filter by subject and displaying a single course overview)
 * [x] 2. Adding student registration view
@@ -47,7 +47,7 @@ All packages for the development of this project are contained in the *requireme
 * [ ] Caching views
 * [ ] Using the per-site cache
 
-#### Payment app
+### Payment app
 
 * [x] 1.Payment app, and MPESA API boilerplate
 * [x] 2.Payment Logic and monthly subscription
@@ -55,9 +55,20 @@ All packages for the development of this project are contained in the *requireme
 * [ ] 4.Decorators
 * [ ] 5.Model Mixins to restrict course views on an only Paid aceess or free trial
 
-##### Secondary Features (Chat, Notes, API)
+### Building Better User Interfaces
 
-##### Building an API for Mobile and or other clients
+* [ ] Structuring Interfaces for Core, Courses, Students, Notes, Chat apps
+* [ ] Filling In the Gaps
+* [ ] Redirecting and Auth Views
+* [ ] Public Views -core
+* [ ] Handling layout static components (Carousel, Testimonials, Partners, Contact us)
+* [ ] Map
+* [ ] Footer and Newsletter form
+* [ ] Contact Us
+
+## Secondary Features (Chat, Notes, API)
+
+#### Building an API for Mobile and or other clients
 
 * [ ] Setting up Django REST framework
 * [ ] Defining serializers (parsers and renderers)
@@ -68,7 +79,7 @@ All packages for the development of this project are contained in the *requireme
 * [ ] Viewsets and routers
 * [ ] Prep: Consuming the RESTful API
 
-##### Intergrating Notes App
+#### Intergrating Notes App
 
 * [ ] Merging auth system
 * [ ] Notes Models
@@ -76,9 +87,9 @@ All packages for the development of this project are contained in the *requireme
 * [ ] Note Views
 * [ ] REST API for Notes
 
-##### Building the Chat Server
+#### Building the Chat Server
 
-* [ ] Creating a chat application
+* [x] Creating a chat application
 * [ ] Implementing the chat room view
 * [ ] Deactivating the per-site cache
 * [ ] Asynchronous applications using ASGI and Django with Channels
@@ -91,16 +102,6 @@ All packages for the development of this project are contained in the *requireme
 * [ ] Modifying the consumer to be fully asynchronous
 * [ ] Integrating the chat application with existing views
 
-##### Building Better User Interfaces
-
-* [ ] Structuring Interfaces for Core, Courses, Students, Notes, Chat apps
-* [ ] Filling In the Gaps
-* [ ] Redirecting and Auth Views
-* [ ] Public Views -core
-* [ ] Handling layout static components (Carousel, Testimonials, Partners, Contact us)
-* [ ] Map
-* [ ] Footer and Newsletter form
-* [ ] Contact Us
 
 #### Deployment
 
