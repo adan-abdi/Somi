@@ -18,7 +18,7 @@ All packages for the development of this project are contained in the *requireme
 
 ## Milestones and Code-Checklist
 
-## Core Functionalities
+## Core Functionalities - With Continuous Development and Intergration on Heroku
 
 ### ✅ Functionality for instructors
 
@@ -33,19 +33,12 @@ All packages for the development of this project are contained in the *requireme
 * [x] 9. Adding content to course modules
 * [x] 10. Managing and Reordering modules and their contents (AJAX-based drag-and-drop functionality to order course modules and their contents)
 
-### Rendering, Accessing and Caching Course Contents (Student View)
+### ✅ Rendering, Accessing and Caching Course Contents (Student View)
 
 * [x] 1. Displaying courses (Filter by subject and displaying a single course overview)
 * [x] 2. Adding student registration view
 * [x] 3. Enrolling to courses and Accessing the course contents
 * [x] 4. Rendering different content-types (Video, Files, Text, Images)
-* [ ] Cache Backends Framework for Rendering and Caching Content - *Memcached*
-* [ ] Cache settings - Adding Memcached
-* [ ] Low-level cache API
-* [ ] Caching based on dynamic data
-* [ ] Caching template fragments
-* [ ] Caching views
-* [ ] Using the per-site cache
 
 ### Payment app
 
@@ -66,12 +59,27 @@ All packages for the development of this project are contained in the *requireme
 * [ ] Footer and Newsletter form
 * [ ] Contact Us
 
-#### Testing and Launch
+#### Testing and Launch, TBD
 
-* [ ] 🚀 Begin Testing (Heroku)!
+* [ ] 🚀 Begin Testing
 * [ ] 🚀 Going Live! Version 1
 
+
 ## Secondary Features (Chat, Notes, API)
+
+### Caching Using Django Cache Framework
+
+* [ ] Cache Backends Framework for Rendering and Caching Content - *Memcached*
+* [ ] Cache settings - Adding Memcached
+* [ ] Low-level cache API
+* [ ] Caching based on dynamic data
+* [ ] Caching template fragments
+* [ ] Caching views
+* [ ] Using the per-site cache
+
+### Blog
+
+* [ ] Build Blog App
 
 #### Building an API for Mobile and or other clients
 
