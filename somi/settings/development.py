@@ -4,7 +4,7 @@ from decouple import config
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'https://somi-edu.herokuapp.com/']
+ALLOWED_HOSTS = ['127.0.0.1', 'somi-edu.herokuapp.com']
 
 
 INSTALLED_APPS += [
