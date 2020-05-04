@@ -1,2 +1,2 @@
-web: gunicorn src.somi.wsgi
+web: gunicorn somi.wsgi
 
