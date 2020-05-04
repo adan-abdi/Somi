@@ -4,7 +4,7 @@ from decouple import config
 
 DEBUG = config('DEBUG', cast=bool)
 
-ALLOWED_HOSTS = ['ip-address-server', 'www.your-website.com']
+ALLOWED_HOSTS = ['https://somi-edu.herokuapp.com/']
 
 
 # Database
