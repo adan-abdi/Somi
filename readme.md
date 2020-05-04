@@ -69,7 +69,7 @@ All packages for the development of this project are contained in the *requireme
 
 ### Caching Using Django Cache Framework
 
-* [ ] Cache Backends Framework for Rendering and Caching Content - *Memcached*
+* [ ] Cache Backends Framework for Rendering and Caching Content - **Memcached**
 * [ ] Cache settings - Adding Memcached
 * [ ] Low-level cache API
 * [ ] Caching based on dynamic data
