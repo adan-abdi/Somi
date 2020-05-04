@@ -12,7 +12,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '1afgp@wyt6)9g0!!g)%d20b#2h1c@bqvno&rf4%z7@ae$x#0d8'
+SECRET_KEY = '7650eb23fbda6cf18fd4eb869fb23d7df72a25031cf22fac'
+# SECRET_KEY = config('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 
@@ -35,8 +36,6 @@ INSTALLED_APPS = [
     'courses',
     'payments',
     'students',
-    'notes',
-    'chat'
 
 ]
 

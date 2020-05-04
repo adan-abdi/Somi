@@ -3,6 +3,7 @@ from decouple import config
 
 
 DEBUG = True
+DEBUG = config('DEBUG', cast=bool)
 
 ALLOWED_HOSTS = ['127.0.0.1', 'somi-edu.herokuapp.com']
 
