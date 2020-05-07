@@ -3,6 +3,7 @@ from decouple import config
 
 
 DEBUG = True
+DEBUG = config('DEBUG', cast=bool)
 
 ALLOWED_HOSTS = ['127.0.0.1', 'somi-edu.herokuapp.com']
 
@@ -11,9 +12,8 @@ INSTALLED_APPS += [
     'debug_toolbar',
 ]
 
-MIDDLEWARE += [
-    'debug_toolbar.middleware.DebugToolbarMiddleware',
-]
+MIDDLEWARE += ('debug_toolbar.middleware.DebugToolbarMiddleware',)
+
 
 
 # DEBUG TOOLBAR SETTINGS
