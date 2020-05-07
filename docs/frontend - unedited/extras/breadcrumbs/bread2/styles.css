@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+  background: #8fa1fb;
+}
+
+.wrapper{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.breadcrumbs{
+  width: 420px;
+  height: 50px;
+  background: #fff;
+  border-radius: 50px;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.25);
+  padding-left: 80px;
+  padding-right: 20px;
+  position: relative;
+}
+
+.breadcrumbs ul{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  text-align: center;
+}
+
+.breadcrumbs ul li{
+  width: 80px;
+  height: 100%;
+  padding: 10px 0;
+  position: relative;
+}
+
+.breadcrumbs ul li.active:before{
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #ff8ea1;
+}
+
+.breadcrumbs ul li a {
+  color: #afafaf;
+  font-size: 14px;
+}
+
+.breadcrumbs ul li a .fas{
+  margin-bottom: 5px;
+}
+
+.breadcrumbs ul li.active a{
+  color: #ff8ea1;
+}
+
+.breadcrumbs .home{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -10px;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  background: #ff8ea1;
+  border-radius: 50%;
+  box-shadow: 0 0 2px rgba(0,0,0,0.25);
+}
+
+.breadcrumbs .home a{
+  font-size: 25px;
+  color: #fff;
+}

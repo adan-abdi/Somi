@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Blinker&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Blinker', sans-serif;
+}
+
+.wrapper{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.wrapper h1{
+  text-align: center;
+  margin-bottom: 15px;
+  color: #121212;
+  letter-spacing: 2px;
+}
+
+.wrapper .sub_wrapper{
+  display: flex;
+}
+
+.wrapper .sub_wrapper .hobby{
+   margin: 15px;
+  text-align: center;
+}
+
+
+.wrapper .sub_wrapper .hobby p{
+  color: #121212;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.container{
+  display: block;
+  position: relative;
+  cursor: pointer;
+  width: 80px;
+  height: 80px;
+  background: #d5eaff;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.container .input{
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 0;
+}
+
+.container .d_checkbox{
+  width: 65px;
+  height: 65px;
+  background: #4c9bfb;
+  border-radius: 50%;
+  display: none;
+}
+
+.container .d_checkbox,
+.container .fas{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.container .fas{
+  font-size: 22px;
+  color: #4c9bfb;
+}
+
+.container .input:checked ~ .d_checkbox{
+  display: block;
+}
+
+.container .input:checked ~ .fas{
+  color: #d5eaff;
+}

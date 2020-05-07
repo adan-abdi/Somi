@@ -40,6 +40,33 @@ All packages for the development of this project are contained in the *requireme
 * [x] 3. Enrolling to courses and Accessing the course contents
 * [x] 4. Rendering different content-types (Video, Files, Text, Images)
 
+### Building Better User Interfaces
+
+* [x] Prep New frontend components
+* [ ] Customize frontend components
+* [ ] Assemble
+* [ ] Remove current homepage
+* [ ] Homepage Header - Nav, Slider
+* [ ] Homepage what do we do
+* [ ] Homepage Courses Preview
+* [ ] Homepage Video
+* [ ] Homepage Testimonials
+* [ ] Homepage Footer
+* [ ] Homepage Partners
+* [ ] Homepage Instructors Preview
+* [ ] Homepage About Us
+* [ ] Dashboard Students
+* [ ] Dashboard Instructors
+* [ ] Courses.objects.all()
+* [ ] Course detail view
+* [ ] Instructors.objects.all()
+* [ ] Instructor detail view Resume
+* [ ] Login, Registration, Logout
+* [ ] Payment Redirect Page
+* [ ] Contact Us
+* [ ] Footer and Newsletter form + Social Pages
+* [ ] Contact Us
+
 ### Payment app
 
 * [x] 1.Payment app, and MPESA API boilerplate
@@ -47,17 +74,6 @@ All packages for the development of this project are contained in the *requireme
 * [ ] 3.Free 7 day trial
 * [ ] 4.Decorators
 * [ ] 5.Model Mixins to restrict course views on an only Paid aceess or free trial
-
-### Building Better User Interfaces
-
-* [ ] Structuring Interfaces for Core, Courses, Students, Notes, Chat apps
-* [ ] Filling In the Gaps
-* [ ] Redirecting and Auth Views
-* [ ] Public Views -core
-* [ ] Handling layout static components (Carousel, Testimonials, Partners, Contact us)
-* [ ] Map
-* [ ] Footer and Newsletter form
-* [ ] Contact Us
 
 #### Testing and Launch, TBD
 

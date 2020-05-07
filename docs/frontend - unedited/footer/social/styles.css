@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+*{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+
+body{
+	background: #4f35bc;
+}
+
+.wrapper{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.list_wrap ul li{
+	display: flex;
+	background: #382a8c;
+	margin-bottom: 70px;
+	padding: 15px 30px;
+	padding-left: 100px;
+	color: #fff;
+	width: 500px;
+	font-size: 14px;
+	line-height: 22px;
+	border-radius: 50px;
+	position: relative;
+}
+
+.list_wrap ul li:last-child{
+	margin-bottom: 0;
+}
+
+.list_wrap ul li .icon{
+	position: absolute;
+	top: -25px;
+    left: -50px;
+	width: 125px;
+	height: 125px;
+	background: #7b5be4;
+	border-radius: 50%;
+	z-index: 1;
+}
+
+.list_wrap ul li .icon:before{
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: url('list_75.png') no-repeat;
+}
+
+.list_wrap ul li.github .icon:before{
+	background-position: 0 0;
+	width: 75px;
+	height: 73px;
+}
+
+.list_wrap ul li.codepen .icon:before{
+	background-position: 0 -100px;
+	width: 75px;
+	height: 76px;
+}
+
+.list_wrap ul li.dribble .icon:before{
+	background-position: 0 -199px;
+	width: 75px;
+	height: 75px;
+}
+
+.list_wrap ul li.reddit .icon:before{
+	background-position: 0 -302px;
+	width: 75px;
+	height: 74px;
+}
+
+.list_wrap ul li.quora .icon:before{
+	background-position: 0 -404px;
+	width: 66px;
+	height: 75px;
+}
