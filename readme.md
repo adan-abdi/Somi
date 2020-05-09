@@ -43,15 +43,14 @@ All packages for the development of this project are contained in the *requireme
 ### Building Better User Interfaces
 
 * [x] Prep New frontend components
-* [ ] Customize frontend components
-* [ ] Assemble
-* [ ] Remove current homepage
-* [ ] Homepage Header - Nav, Slider
-* [ ] Homepage what do we do
-* [ ] Homepage Courses Preview
+* [x] Customize frontend components
+* [x] Assemble
+* [x] Remove current homepage
+* [x] Homepage Header - Nav, Slider
+* [x] Homepage what do we do
+* [x] Homepage Courses Preview
 * [ ] Homepage Video
 * [ ] Homepage Testimonials
-* [ ] Homepage Footer
 * [ ] Homepage Partners
 * [ ] Homepage Instructors Preview
 * [ ] Homepage About Us
@@ -63,9 +62,8 @@ All packages for the development of this project are contained in the *requireme
 * [ ] Instructor detail view Resume
 * [ ] Login, Registration, Logout
 * [ ] Payment Redirect Page
-* [ ] Contact Us
+* [x] Contact Us
 * [ ] Footer and Newsletter form + Social Pages
-* [ ] Contact Us
 
 ### Payment app
 
@@ -75,11 +73,11 @@ All packages for the development of this project are contained in the *requireme
 * [ ] 4.Decorators
 * [ ] 5.Model Mixins to restrict course views on an only Paid aceess or free trial
 
-#### Testing and Launch, TBD
+#### Testing and Heroku Launch!
 
-* [ ] 🚀 Begin Testing
+* [x] 🚀 Begin Testing
+* [x] 🚀 Deploy to Heroku
 * [ ] 🚀 Going Live! Version 1
-
 
 ## Secondary Features (Chat, Notes, API)
 
