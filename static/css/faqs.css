@@ -24,8 +24,13 @@ body{
 	box-shadow: 0 0 3px rgba(0,0,0,0.125);
 }
 
+.accordion_container{
+	border-radius: 30px;
+}
+
 .accordion_container .accordion_header{
 	background: #05ad51;
+	border-radius: 30px;
 	padding: 35px 15px;
 	height: 100px;
 	text-align: center;
